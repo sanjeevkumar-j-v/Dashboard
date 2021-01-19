@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Inspire - Admin and Dashboard Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="/fonts/line-icons.css" />
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="/plugins/morris/morris.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+
+    <style>
+      body {
+        color: #fff;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.66) 100%,
+            transparent
+          ),
+          url(https://images.wallpapersden.com/image/download/sung-jin-woo-anime-art_67920_2560x1440.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2rem;
+        display: inline-block;
+        padding: 1rem;
+        font-weight: 400;
+        position: relative;
+        opacity: 1;
+        transform: scale(1);
+        transition: transform 0.5s ease, opacity 1s ease;
+      }
+      h1:before,
+      h1:after {
+        height: 2px;
+        width: 100%;
+        content: "";
+        background: white;
+        display: block;
+        position: absolute;
+        transition: width 0.4s ease;
+        transition-delay: 0.8s;
+      }
+      h1:before {
+        top: 0;
+        left: 0;
+      }
+      h1:after {
+        bottom: 0;
+        right: 0;
+      }
+      button {
+        color: white;
+        font-size: 2rem;
+        border-radius: 30px;
+        height: 70px;
+        margin: 20px;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main" class="">
+      <h1>Welcome To Club Innovative</h1>
+      <h6>Innovations Incepted</h6>
+      <button><a href="/dashboard">Continue</a></button>
+    </div>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.app.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!--Morris Chart-->
+    <script src="/plugins/morris/morris.min.js"></script>
+    <script src="/plugins/raphael/raphael-min.js"></script>
+    <script src="/js/dashborad1.js"></script>
+  </body>
+</html>
