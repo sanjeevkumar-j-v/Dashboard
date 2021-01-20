@@ -15,25 +15,25 @@ router.get("/dashboard", function (req, res, next) {
 });
 
 router.get("/ongoing-event", function (req, res, next) {
-  res.render("ongoing event", { title: "Event | Club Inno", page: "event" });
+  res.render("ongoing_event", { title: "Event | Club Inno", page: "event" });
 });
 router.get("/upcoming-event", function (req, res, next) {
-  res.render("upcoming event", { title: "Event | Club Inno", page: "event" });
+  res.render("upcoming_event", { title: "Event | Club Inno", page: "event" });
 });
 router.get("/past-event", function (req, res, next) {
-  res.render("past event", { title: "Event | Club Inno", page: "event" });
+  res.render("past_event", { title: "Event | Club Inno", page: "event" });
 });
 
 router.get("/office-bearers", function (req, res, next) {
-  res.render("office bearers", { title: "OB | Club Inno", page: "office-bearers" });
+  res.render("office_bearers", { title: "OB | Club Inno", page: "office-bearers" });
 });
 
 router.get("/contact", function (req, res, next) {
-  res.render("contact", { title: "Contact | Club Inno", page: "contact" });
+  res.render("contactus", { title: "Contact | Club Inno", page: "contact" });
 });
 
 router.get("/admin", function (req, res, next) {
-  res.render("admin", { title: "Admin | Club Inno", page: "admin" });
+  res.render("admin_page", { title: "Admin | Club Inno", page: "admin" });
 });
 
 

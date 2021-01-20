@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Club Inno</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <style>
+      .content {
+        background-color: #1a2942;
+        background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.66) 100%,
+            transparent
+          ),
+          url(https://images.wallpapersden.com/image/download/sung-jin-woo-anime-art_67920_2560x1440.jpg);
+        background-size: cover, cover;
+        background-position: center, center;
+        color: #ffffff;
+        text-align: center;
+      }
+      .container {
+        background-color: #1a2942ab;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <!-- <img
+          class="bg-img"
+          src="https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/bg.jpg"
+          alt=""
+        /> -->
+        <h2>Registration Form</h2>
+        <div class="menu">
+          <a href="#connexion" class="btn-connexion"><h2>SIGN UP</h2></a>
+          <a href="#enregistrer" class="btn-enregistrer active">
+            <h2>SIGN IN</h2>
+          </a>
+        </div>
+        <div class="connexion">
+          <div class="contact-form">
+              <label>USERNAME</label>
+            <input placeholder="" type="text" />
+
+            <label>E-MAIL</label>
+            <input placeholder="" type="mail" />
+
+            <label>PASSWORD</label>
+            <input placeholder="" type="text" />
+
+            <label>CONFIRM PASSWORD</label>
+            <input placeholder="" type="text" />
+
+            <label>ROLL NUMBER</label>
+            <input placeholder="" type="text" />
+
+            <label>CLASS</label>
+            <input placeholder="" type="text" />
+
+            <label>DEPARTMENT</label>
+            <input placeholder="" type="text" />
+
+            <br>
+            <br>
+
+            <input class="submit" value="SIGN UP" type="submit" />
+          </div>
+
+          <hr />
+          
+        </div>
+
+        <div class="enregistrer active-section">
+          <div class="contact-form">
+            
+            <label>E-MAIL</label>
+            <input placeholder="" type="email" />
+
+            <label>PASSWORD</label>
+            <input placeholder="" type="text" />
+
+            <br>
+            <br>
+
+            <input class="submit" value="SIGN IN" type="submit" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>
