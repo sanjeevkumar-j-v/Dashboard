@@ -5,8 +5,30 @@
       <li class="side-nav-header">
         <span>Navigation</span>
       </li>
-      <li class="nav-item dropdown open">
-        <a href="#" class="dropdown-toggle">
+      <li class="nav-item dropdown <%= page=='home'? 'open' : '' %>">
+        <a href="/" class="dropdown-toggle">
+          <span class="icon-holder">
+            <i class="lni-dashboard"></i>
+          </span>
+          <span class="title">Home</span>
+          <span class="arrow">
+            <i class="lni-chevron-right"></i>
+          </span>
+        </a>
+      </li>
+      <li class="nav-item dropdown <%= page=='profile'? 'open' : '' %>">
+        <a href="/profile" class="dropdown-toggle">
+          <span class="icon-holder">
+            <i class="lni-dashboard"></i>
+          </span>
+          <span class="title">Profile</span>
+          <span class="arrow">
+            <i class="lni-chevron-right"></i>
+          </span>
+        </a>
+      </li>
+      <li class="nav-item dropdown <%= page=='dashboard'? 'open' : '' %>">
+        <a href="/dashboard" class="dropdown-toggle">
           <span class="icon-holder">
             <i class="lni-dashboard"></i>
           </span>
@@ -15,21 +37,63 @@
             <i class="lni-chevron-right"></i>
           </span>
         </a>
-        
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown <%= page=='event'? 'open' : '' %>">
         <a class="dropdown-toggle" href="#">
+          <span class="icon-holder">
+            <i class="lni-layers"></i>
+          </span>
+          <span class="title">Events</span>
+          <span class="arrow">
+            <i class="lni-chevron-right"></i>
+          </span>
+        </a>
+        <ul class="dropdown-menu sub-down">
+          <li>
+            <a href="/ongoing-event">Ongoing</a>
+          </li>
+          <li>
+            <a href="/upcoming-event">Upcoming</a>
+          </li>
+          <li>
+            <a href="/past-event">Past</a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown <%= page=='office-bearers'? 'open' : '' %>">
+        <a class="dropdown-toggle" href="office-bearers">
             <span class="icon-holder">
               <i class="lni-cloud"></i>
             </span>
-            <span class="title">Apps</span>
+            <span class="title">Office Bearers</span>
             <span class="arrow">
               <i class="lni-chevron-right"></i>
             </span>
           </a>
-        
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown <%= page=='contact'? 'open' : '' %>">
+        <a class="dropdown-toggle" href="/contact">
+            <span class="icon-holder">
+              <i class="lni-cloud"></i>
+            </span>
+            <span class="title">Contact</span>
+            <span class="arrow">
+              <i class="lni-chevron-right"></i>
+            </span>
+          </a>
+      </li>
+      <li class="nav-item dropdown <%= page=='admin'? 'open' : '' %>">
+        <a class="dropdown-toggle" href="/admin">
+            <span class="icon-holder">
+              <i class="lni-cloud"></i>
+            </span>
+            <span class="title">Admin Page</span>
+            <span class="arrow">
+              <i class="lni-chevron-right"></i>
+            </span>
+          </a>
+      </li>
+      <!-- <li class="nav-item dropdown">
         <a class="dropdown-toggle" href="#">
           <span class="icon-holder">
             <i class="lni-layers"></i>
@@ -237,7 +301,7 @@
             <a href=#>404</a>
           </li>
         </ul>
-      </li>
+      </li> -->
     </ul>
   </div>
 </div>
