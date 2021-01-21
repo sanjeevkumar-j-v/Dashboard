@@ -373,7 +373,7 @@ hr {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #1c2f4e;
   z-index: 9999999;
 }
 
@@ -1288,7 +1288,7 @@ hr {
 }
 
 .page-container .main-content {
-  padding: calc(50px + 35px) 15px 15px 15px;
+  /* padding: calc(50px + 35px) 15px 15px 15px; */
   min-height: calc(100vh - 65px);
   /* background: #f1f2f7; */
   background: #0e1624;
