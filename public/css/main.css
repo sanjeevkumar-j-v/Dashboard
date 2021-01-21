@@ -1288,7 +1288,7 @@ hr {
 }
 
 .page-container .main-content {
-  /* padding: calc(50px + 35px) 15px 15px 15px; */
+  padding: calc(50px + 35px) 0px 0px 0px;
   min-height: calc(100vh - 65px);
   /* background: #f1f2f7; */
   background: #0e1624;

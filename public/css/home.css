@@ -111,6 +111,7 @@ a.mcnButton {
 body,
 #bodyTable {
   /*@editable*/
+  color: white;
   background-color: #1f2a44;
 }
 /*
@@ -130,7 +131,7 @@ body,
       */
 h1 {
   /*@editable*/
-  color: #202020;
+  /* color: #202020; */
   /*@editable*/
   font-family: "Courier New", Courier, "Lucida Sans Typewriter",
     "Lucida Typewriter", monospace;
@@ -155,7 +156,7 @@ h1 {
       */
 h2 {
   /*@editable*/
-  color: #202020;
+  /* color: #202020; */
   /*@editable*/
   font-family: Helvetica;
   /*@editable*/
@@ -179,7 +180,7 @@ h2 {
       */
 h3 {
   /*@editable*/
-  color: #202020;
+  /* color: #202020; */
   /*@editable*/
   font-family: Helvetica;
   /*@editable*/
