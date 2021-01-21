@@ -2,7 +2,11 @@
 const mongoose = require('mongoose');
 
 //connect to the database
-mongoose.connect('mongodb+srv://admin-sanjeev:sANJEEVsk@cluster0.qcpgk.mongodb.net/club_inno_db?retryWrites=true&w=majority', {useNewUrlParser: true});;
+mongoose.connect(
+  "mongodb+srv://innospiders:spidersofinno@cluster0.mtupj.mongodb.net/inno_db?retryWrites=true&w=majority",
+  { useNewUrlParser: true }
+);;
+// mongoose.connect('mongodb+srv://admin-sanjeev:sANJEEVsk@cluster0.qcpgk.mongodb.net/club_inno_db?retryWrites=true&w=majority', {useNewUrlParser: true});;
 
 //acquire the connection(to check if it's successful)
 const db = mongoose.connection;
