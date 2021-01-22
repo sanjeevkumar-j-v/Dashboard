@@ -8,7 +8,7 @@
       <li class="nav-item dropdown <%= page=='home'? 'open' : '' %>">
         <a href="/" class="dropdown-toggle">
           <span class="icon-holder">
-            <i class="lni-dashboard"></i>
+            <i class="lni-home"></i>
           </span>
           <span class="title">Home</span>
           <span class="arrow">
@@ -19,7 +19,7 @@
       <li class="nav-item dropdown <%= page=='profile'? 'open' : '' %>">
         <a href="/profile" class="dropdown-toggle">
           <span class="icon-holder">
-            <i class="lni-dashboard"></i>
+            <i class="lni-user"></i>
           </span>
           <span class="title">Profile</span>
           <span class="arrow">
@@ -61,9 +61,20 @@
         </ul>
       </li>
       <li class="nav-item dropdown <%= page=='office-bearers'? 'open' : '' %>">
-        <a class="dropdown-toggle" href="office-bearers">
+        <a class="dropdown-toggle" href="/blog">
             <span class="icon-holder">
-              <i class="lni-cloud"></i>
+              <i class="lni-gallery"></i>
+            </span>
+            <span class="title">Blog</span>
+            <span class="arrow">
+              <i class="lni-chevron-right"></i>
+            </span>
+          </a>
+      </li>
+      <li class="nav-item dropdown <%= page=='office-bearers'? 'open' : '' %>">
+        <a class="dropdown-toggle" href="/office-bearers">
+            <span class="icon-holder">
+              <i class="lni-heart"></i>
             </span>
             <span class="title">Office Bearers</span>
             <span class="arrow">
@@ -74,7 +85,7 @@
       <li class="nav-item dropdown <%= page=='contact'? 'open' : '' %>">
         <a class="dropdown-toggle" href="/contact">
             <span class="icon-holder">
-              <i class="lni-cloud"></i>
+              <i class="lni-phone"></i>
             </span>
             <span class="title">Contact</span>
             <span class="arrow">
@@ -85,7 +96,7 @@
       <li class="nav-item dropdown <%= page=='admin'? 'open' : '' %>">
         <a class="dropdown-toggle" href="/admin">
             <span class="icon-holder">
-              <i class="lni-cloud"></i>
+              <i class="lni-cog"></i>
             </span>
             <span class="title">Admin Page</span>
             <span class="arrow">
