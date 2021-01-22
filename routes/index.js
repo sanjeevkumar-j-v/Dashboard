@@ -24,6 +24,10 @@ router.get("/past-event", function (req, res, next) {
   res.render("past_event", { title: "Event | Club Inno", page: "event" });
 });
 
+router.get("/blog", function (req, res, next) {
+  res.render("blog", { title: "Blog | Club Inno", page: "Blog" });
+});
+
 router.get("/office-bearers", function (req, res, next) {
   res.render("office_bearers", { title: "OB | Club Inno", page: "office-bearers" });
 });
