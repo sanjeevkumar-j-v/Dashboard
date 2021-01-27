@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Join | Club Inno</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="/fonts/line-icons.css" />
+    <!--Morris Chart CSS -->
+    <link rel="stylesheet" href="/plugins/morris/morris.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/register.css" />
+
+    <style>
+      .dark-bg {
+        background-color: #1a2942;
+        color: #b7c9d1 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- <title><%= title %></title>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+    <div class="app header-default side-nav-dark">
+      <div class="layout">
+        <%- include('_header'); %> <%- include('_navbar'); %>
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Content Wrapper START -->
+          <div class="main-content" style="padding: 0;">
+            <div class="container-fluid">
+              <div class="container">
+                <div class="box">
+                  <input
+                    type="checkbox"
+                    id="toggle"
+                    class="box__toggle"
+                    hidden
+                  />
+                  <img
+                    src="/img/lights.jpeg"
+                    alt="Join us"
+                    class="box__image"
+                  />
+                  <form class="form form--register" action="">
+                    <h1 class="form__title">Sign up</h1>
+
+                    <div class="form__helper">
+                      <input
+                        type="text"
+                        name="user"
+                        id="new-user"
+                        placeholder="User"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="new-user">User</label>
+                    </div>
+
+                    <div class="form__helper">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="email">Email</label>
+                    </div>
+
+                    <div class="form__helper">
+                      <input
+                        type="password"
+                        name="password"
+                        id="new-user-password"
+                        placeholder="Password"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="new-user-password"
+                        >Password</label
+                      >
+                    </div>
+
+                    <div class="form__helper">
+                      <input
+                        type="password"
+                        name="password"
+                        id="confirm-password"
+                        Placeholder="Confirm password"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="confirm-password"
+                        >Confirm password</label
+                      >
+                    </div>
+
+                    <button type="submit" class="form__button">Register</button>
+
+                    <p class="form__text">
+                      Already have an account?
+                      <label for="toggle" class="form__link">Sign in!</label>
+                    </p>
+                  </form>
+
+                  <form class="form form--login" action="">
+                    <h1 class="form__title">Sign in</h1>
+
+                    <div class="form__helper">
+                      <input
+                        type="text"
+                        name="user"
+                        id="user"
+                        placeholder="User"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="user">User</label>
+                    </div>
+
+                    <div class="form__helper">
+                      <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        placeholder="Password"
+                        class="form__input"
+                      />
+                      <label class="form__label" for="password">Password</label>
+                    </div>
+
+                    <button type="submit" class="form__button">Login</button>
+
+                    <p class="form__text">
+                      Don't have an account?
+                      <label for="toggle" class="form__link">Sign up!</label>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <%- include('_footer'); %>
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery-min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.app.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!--Morris Chart-->
+    <script src="/plugins/morris/morris.min.js"></script>
+    <script src="/plugins/raphael/raphael-min.js"></script>
+    <script src="/js/dashborad1.js"></script>
+
+  </body>
+</html>
