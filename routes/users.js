@@ -3,6 +3,6 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get("/login", function (req, res, next) {
-  res.render("login", { title: "Login | Club Inno" });
+  res.render("join", { title: "Login | Club Inno", page: "office-bearers" });
 });
 module.exports = router;
